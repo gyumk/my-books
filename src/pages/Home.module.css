@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap');
+
+.wrap_book_list {
+  width: 100%;
+  height: 100vh;
+  background-color: #222;
+}
+.book_list {
+  width: 80%;
+  max-width: 500px;
+}
+
+.list_title {
+  font-family: 'Permanent Marker', cursive;
+  color: whitesmoke;
+}
+
+.book {
+  color: rgb(184, 180, 180);
+  border-bottom: 1px solid rgb(73, 69, 73);
+  padding: 10px 0 10px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 15px;
+  letter-spacing: -1px;
+}
+
+.books_header {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.books_title,
+.books_author {
+  font-family: 'Permanent Marker', cursive;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.book_title {
+  text-align: left;
+}
+
+.book_author {
+  text-align: left;
+}
+
+.book_icon {
+  transform: translateY(16%);
+  margin: 0 10px 0 6px;
+  color: whitesmoke;
+}
